@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext);
+
+body {
+	font-family: 'Open Sans', sans-serif !important;
+	color: #636363 !important;
+}
+
+span, #nipError, #nameError, #lastnameError, #emailError {
+	color: red;
+}
+
+h3 {
+	color: #f99d34 !important;
+}
+
+input[type=submit].btn-block, input[type=submit].btn-block:hover {
+  outline: none;
+}
+
+#nipNum:invalid, #name:invalid, #lastname:invalid, #mail:invalid {
+  border-color: #FF0505;
+}
+
+#nipNum:valid, #name:valid, #lastname:valid, #mail:valid {
+  border-color: #4AC64A;
+}
+
+.form-control {
+	border-radius: 15px !important;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+	color: #fff  !important;
+	font-weight: 600;
+	border: 0;
+	cursor: pointer;
+	margin:20px auto;
+	font-size: 18px;
+	line-height: 1.8 !important;
+	border-radius: 25px !important;
+	background: #f99d34  !important;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#f78b28),color-stop(1,#faaa47)) !important;
+	background: -ms-linear-gradient(bottom,#f78b28,#faaa47) !important;
+	background: -moz-linear-gradient(center bottom,#f78b28 0,#faaa47 100%) !important;
+	background: -o-linear-gradient(#faaa47,#f78b28) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faaa47',endColorstr='#f78b28',GradientType=0);
+	-webkit-box-shadow: 0 2px 6px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 6px 1px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 6px 1px rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.btn-lg:hover, .btn-group-lg > .btn:hover {
+	background: #f99d34  !important;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#ff932f),color-stop(1,#ffb151)) !important;
+	background: -ms-linear-gradient(bottom,#ff932f,#ffb151) !important;
+	background: -moz-linear-gradient(center bottom,#ff932f 0,#ffb151 100%) !important;
+	background: -o-linear-gradient(#ffb151,#ff932f) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb151',endColorstr='#ff932f',GradientType=0);
+}
